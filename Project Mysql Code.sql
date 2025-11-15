@@ -586,8 +586,7 @@ SELECT
 FROM Transport
 ORDER BY provider_upper limit 3 offset 1;
 
--- Constraints, Joins & Views
--- Topics: PK, FK, UNIQUE, NOT NULL, CHECK, INNER/LEFT/RIGHT JOIN
+-- Joins & Views
 
 -- INNER JOIN
 SELECT d.destination_name, c.country_name, c.region 
